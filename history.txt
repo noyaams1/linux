@@ -1,0 +1,33 @@
+    1  pwd
+    2  df -h /
+    3  du -h /
+    4  df -h /
+    5  du -h | head -n 5 ~/
+    6* 
+    7  du -h | head -n 5 /home
+    8  du -h /home | head -n 5
+    9  du -h /home |sort -r | head -n 5
+   10  du -h /home | sort -r | head -n 5
+   11  du -h
+   12  du -h ../
+   13  ls /home
+   14  du -ah /home | sort -rh | head -n 5
+   15  du -ah /home | sort -r | head -n 5
+   16  du -ah /home | sort -rh | head -n 5
+   17  du -ah /home 
+   18  du -ah /home | sort -rh | head -n 5
+   19  df -h /root
+   20  df -h /
+   21  df -h / | cut -c4
+   22  df -h / | awk '{print $4}'
+   23  ifconfig
+   24  git remote -v
+   25  git --version
+   26  sudo yum install git
+   27  git clone https://github.com/noyaams1/linux.git
+   28  ls -la
+   29  cd linux/
+   30  ls -la
+   31  df /
+   32  df -h /
+   33  history > history.txt
